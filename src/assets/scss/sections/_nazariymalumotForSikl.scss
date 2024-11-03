@@ -1,0 +1,64 @@
+.nazariy-malumot {
+  padding: 20px;
+  margin-left: 260px;
+  max-width: calc(100vw - 300px);
+  width: 900px;
+  overflow-y: auto;
+  height: calc(97vh - 60px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+}
+
+.nazariy-malumot__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nazariy-malumot__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 16px;
+}
+
+.nazariy-malumot__subtitle,
+.nazariy-malumot__bigsubtitle {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.nazariy-malumot__content {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 16px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+ul li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 12px;
+}
