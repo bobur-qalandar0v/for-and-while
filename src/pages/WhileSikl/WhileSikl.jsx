@@ -11,7 +11,12 @@ function WhileSikl() {
             <Link className="oretical-information link" to="Nazariymalumot">
               Nazariy ma'lumot
             </Link>
-            <Link className="presentation link">Prezentatsiya</Link>
+            <Link
+              className="presentation link"
+              to="https://www.youtube.com/watch?v=fPZTdfKdBgM&list=PL577FD9B101737234&index=8"
+            >
+              Prezentatsiya
+            </Link>
             <Link
               className="tutorial link"
               to="https://www.youtube.com/watch?v=fPZTdfKdBgM&list=PL577FD9B101737234&index=8"
